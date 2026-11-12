@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local data and generated output
+.DS_Store
+__pycache__/
+*.py[cod]
+*.lock
+logs/
+observations/
+split_data/
+ACC_files/
+results/*
+!results/antennas/
